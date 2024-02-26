@@ -1,5 +1,12 @@
 # object_detection
 
+
+
+https://github.com/V-Mak/object_detection/assets/111484051/30dada46-6f42-417d-a990-d33558007247
+
+
+
+
 ## Introduction:
 The goal of this project is to detect and count vehicles in a traffic video using computer vision techniques. The main steps are:
 1.	Detect vehicles in each video frame using a deep learning model
