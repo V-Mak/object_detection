@@ -11,7 +11,6 @@ https://github.com/V-Mak/object_detection/assets/111484051/30dada46-6f42-417d-a9
 The goal of this project is to detect and count vehicles in a traffic video using computer vision techniques. The main steps are:
 1.	Detect vehicles in each video frame using a deep learning model
 2.	Track detected vehicles across frames
-3.	Count vehicles crossing a defined line
 OpenCV, ultralytics, and supervision libraries are utilized for the project implementation.
 
 ## Object Detection:-
@@ -50,7 +49,7 @@ A LineCounter class increments count when tracked vehicles cross a defined line.
 *	YOLOv8 achieves high detection recall, identifying nearly all vehicles in the video stream.
 *	ByteTrack is able to successfully track vehicles over extended periods despite occlusion and scale changes.
 *	The line counter accurately counts vehicles crossing the defined boundary.
-*	The final output video has clean labeled boxes around each tracked vehicle along with real-time count.
+*	The final output video has clean labeled boxes around each tracked vehicle.
 
 ## Conclusion:-
 The project demonstrates how YOLO, ByteTrack and other libraries can be integrated to build a vehicle tracking and counting system. The implementation covers core concepts like deep learning inference, object tracking, and line intersection. Managing dependencies and environments is also an important lesson learned.
